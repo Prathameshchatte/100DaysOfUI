@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up for Daily UI Challenge</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="side-image">
+            <img src="./images/5483080_2842680-removebg-preview.png" alt="logo of daily ui" width="150px">
+            <h2>#DailyUI</h2>
+            <p>Day01</p>
+        </div>
+        <div class="form-div">
+            <h1>Join the Daily UI Challenge!</h1>
+            <p>Sign up below to receive daily design prompts and showcase your creativity.</p>
+
+            <form id="signupForm" onsubmit="return validateForm()">
+                <label for="fullname">Full Name</label>
+                <input type="text" placeholder="john doe" id="fullname" name="fullname" required>
+
+                <label for="email">Email Address</label>
+                <input type="email" placeholder="johndoe@gmail.com" id="email" name="email" required>
+
+                <label for="password">Password</label>
+                <input type="password" placeholder="Password" name="password" id="password" required>
+
+                <label for="confirmPassword">Confirm Password</label>
+                <input type="password" placeholder="Confirm Password" name="confirmPassword" id="confirmPassword"
+                    required>
+
+                <button type="submit">Sign Up</button>
+            </form>
+            <p>Already joined! <a href="#">Sign In</a></p>
+
+        </div>
+
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
