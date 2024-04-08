@@ -24,3 +24,9 @@ In this repository, I document my journey of tackling the popular "100 Days of U
 Let's connect and share ideas! Follow me on [Twitter](https://twitter.com/prathamesh0106) for more updates and design insights.
 
 ---
+
+Day 01: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day01/index.html"> Sign Up page</a>
+
+Day 02: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day02/index.html"> Sign Up page</a>
+
+
