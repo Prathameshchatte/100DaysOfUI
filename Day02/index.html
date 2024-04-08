@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CheckOut Form</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div class="checkout-product">
+            <div class="price">
+                <img src="./images/shoes-pair.png" alt="developer" width="180">
+                <h3>Sport Shoes</h3>
+                <p>$59.09</p>
+                <h3>DailyUI</h3>
+                <p>Day02</p>
+            </div>
+
+        </div>
+        <div class="checkout-form">
+            <h2>Checkout</h2>
+            <form id="checkoutForm">
+                <div class="input-container">
+                    <label for="cardNumber">Card Number:</label>
+                    <img src="./images/card.png" alt="devlopr" class="icon" width="50">
+                    <input type="text" id="cardNumber" placeholder="Enter card number" maxlength="16" required>
+                </div>
+
+                <label for="expiryDate">Expiry Date (MM/YY):</label>
+                <input type="text" id="expiryDate" placeholder="MM/YY" maxlength="5" required>
+                <label for="cvv">CVV:</label>
+                <input type="text" id="cvv" placeholder="CVV" maxlength="3" required>
+                <button type="submit">Pay Now</button>
+            </form>
+            <div id="successMessage" style="display: none; color: green;">Payment Successful!</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

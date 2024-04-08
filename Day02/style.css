@@ -1,0 +1,137 @@
+* {
+
+    box-sizing: border-box;
+}
+
+body {
+    font-family: monospace;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url(./images/scott-webb-OxHPDs4WV8Y-unsplash\ \(1\).jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+body::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(27, 40, 65, 0.1);
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+}
+
+.container {
+    width: 800px;
+    border: none;
+    border-radius: 5px;
+    display: grid;
+    grid-template-columns: 1fr 1.5fr;
+    z-index: 999;
+
+}
+
+.input-container {
+    position: relative;
+}
+
+.icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+    position: absolute;
+    top: 13px;
+    right: 0;
+}
+
+.checkout-product,
+.checkout-form {
+    padding: 40px 25px;
+}
+
+.checkout-product {
+    background-color: #ffffff;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+
+}
+
+.checkout-product * {
+    margin: 0 0 5px 0;
+}
+
+.checkout-form {
+    background-color: #2C64DC;
+
+}
+
+label {
+    color: #1d1c1ce6;
+    text-transform: uppercase;
+    line-height: 1.45;
+}
+
+input {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 15px;
+    border: none;
+    outline: none;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    font-weight: 600;
+    background-color: #ffffff;
+    color: #2C64DC;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #4aa2ff;
+    color: white;
+}
+
+@media only screen and (max-width: 980px) and (min-width: 780px) {
+    .container {
+        width: 90% !important;
+        /* grid-template-columns: 1fr 1fr; */
+
+    }
+
+}
+@media only screen and (max-width: 779px) and (min-width: 580px) {
+    .container {
+        width: 90% !important;
+        /* grid-template-columns: 1fr 1fr; */
+
+    }
+
+}
+@media only screen and (max-width: 579px)  {
+    .container {
+        width: 80% !important;
+        /* grid-template-columns: 1fr 1fr; */
+        display: block;
+
+    }
+    body{
+        height: unset;
+        padding: 40px;
+    }
+
+}
