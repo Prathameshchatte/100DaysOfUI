@@ -29,4 +29,5 @@ Day 01: Click here to see 👉 <a href="https://prathameshchatte.github.io/100Da
 
 Day 02: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day02/index.html"> Sign Up page</a>
 
+Day 02: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day03/index.html"> Sign Up page</a>
 
