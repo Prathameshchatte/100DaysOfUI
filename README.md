@@ -27,7 +27,7 @@ Let's connect and share ideas! Follow me on [Twitter](https://twitter.com/pratha
 
 Day 01: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day01/index.html"> Sign Up page</a>
 
-Day 02: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day02/index.html"> Sign Up page</a>
+Day 02: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day02/index.html"> Checkout Page</a>
 
-Day 03: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day03/index.html"> Sign Up page</a>
+Day 03: Click here to see 👉 <a href="https://prathameshchatte.github.io/100DaysOfUI/Day03/index.html"> Landing page</a>
 
