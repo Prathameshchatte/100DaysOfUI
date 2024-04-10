@@ -62,6 +62,10 @@ p {
     width: 50%;
 }
 
+#hero{
+    height: 100vh;
+}
+
 .hero-img img {
     width: 100%;
     box-shadow: 8px 8px 10px #FF8815;
