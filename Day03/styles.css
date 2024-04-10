@@ -211,7 +211,7 @@ p {
     /* overflow: hidden; */
     margin-top: -15px;
     margin-bottom: 15px;
-    border-radius: 8px;
+    border-radius: 5px;
 }
 
 .panel ul {
